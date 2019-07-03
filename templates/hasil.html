@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hasil</title>
+</head>
+<body>
+    <h1>
+        <center>
+            {{x[0]}}
+        </center>
+    </h1>
+    <h2>
+        <center>
+            <img src="{{x[1]}}" width="200px" alt="{{x[0]}}">
+        </center>
+    </h2>
+    <h2>
+        <center>
+            Id: {{x[2]}}
+            Berat: {{x[3]}}
+            Tinggi: {{x[4]}}
+        </center>
+    </h2>
+    <center>
+        <form action="http://localhost:5000/">
+            <p> 
+            <input type="submit" value="Kembali">
+            </p>
+        </form>
+    </center>
+</body>
+</html>
